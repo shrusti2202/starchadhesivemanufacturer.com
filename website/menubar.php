@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Interior Designer in Ahmedabad, Industrial Interior Designer in Ahmedabad</title>
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+
+</head>
+
+<body class="main-bg">
+   
+    <div class="page-wrapper frame-box">
+        <div class="prgoress_indicator">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+        <!-- loder -->
+
+        <div id="cursor" class="cursor">
+            <div class="ring">
+                <div></div>
+            </div>
+            <div class="ring">
+                <div></div>
+            </div>
+        </div>
+        <!-- <div class="curser"></div>
+        <div class="curser2"></div> -->
+        <header class="main-header header-style">
+            <div class="menu-outer">
+                <div class="main-header_with">
+                    <div class="main-box">
+                        <div class="logo"><a href="https://www.interiordesignerahmedabad.com/"><img
+                                    src="assets/images/starch-logo.png" alt="Fadia Architects" title="Fadia Architects"></a></div>
+
+                        <a href="#cd-nav" class="cd-nav-trigger">Menu
+                            <span class="cd-nav-icon"></span>
+
+                            <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+                                <circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25"
+                                    stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                            </svg>
+                        </a>
+                        <div class="container">
+                            <div class="row">
+                                <div id="cd-nav" class="cd-nav">
+                                    <div class="cd-navigation-wrapper">
+                                        <div class="cd-half-block col-md-6">
+                                            <h2>Menu</h2>
+                                            <nav>
+                                                <ul class="cd-primary-nav">
+                                                    <li><a href="index.php"
+                                                            class="selected">Home</a></li>
+                                                    <li><a href="about.php" class="selected">About Us</a></li>
+                                                    <li><a href="interior-designing.php" class="selected">Our Services</a></li>
+                                                    <li><a href="industrial-areas-of-ahmedabad.php" class="selected">Areas We Serve</a></li>
+                                                    <li><a href="blog.php" class="selected">Blogs</a></li>
+                                                    <li><a href="gallery.php" class="selected">Gallery</a></li>
+                                                    <li><a href="enquiry.php" class="selected">Enquiry</a></li>
+                                                    <li><a href="contact.php" class="selected">Contact Us</a></li>
+                                                </ul>
+                                            </nav>
+
+
+                                        </div><!-- .cd-half-block -->
+
+                                        <div class="cd-half-block col-md-6">
+                                            <address>
+                                                <ul class="cd-contact-info">
+                                                    <li>Address</li>
+                                                    <li>No - 1, SY - 138, Magadi Main Rd, Near STP Plant Jana Shakti Nagar, Janashakthi Nagar, Kamath Layout, Bengaluru, Karnataka 562130</li>
+                                                    <li style="margin-top: 15px;"><a
+                                                            href="mailto: info.biochemnxt@gmail.com">
+                                                            biochemnxt@gmail.com</a></li>
+                                                    <li>+91 86182 57515</li>
+                                                    <li>
+                                                        <div class="google-map" style="margin-top: 15px;">
+                                                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.18419806302!2d77.4574552!3d12.9848927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3b564be01973%3A0xb8d6f6542b92c7b!2sBIO%20CHEM%20NXT%20-%20Leading%20Manufacturer%20of%20Dextrin%20Powder%20%7C%20Pasting%20Gum%20Powder%20%7C%20Corrugation%20Gum%20Powder!5e0!3m2!1sen!2sin!4v1717563253756!5m2!1sen!2sin" width="100%" height="350" style="border:0; border-radius: 15px; box-shadow: 0px 0px 10px 5px #00000046;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </address>
+                                        </div> <!-- .cd-half-block -->
+                                    </div> <!-- .cd-navigation-wrapper -->
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Main Header -->
+
+        <section class="main-banner">
+            <div class="swiper animeslide">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide animeslide-slide"
+                        style="background-image: url(images/architecture-image.png);">
+                        <div class="container">
+                            <h2 data-animate="bottom" class="animeslide-heading">
+                                "Crafting spaces where form meets function, <br><span> inspiring lives through design
+                                    excellence."</span>
+                            </h2>
+
+                            <div data-animate="bottom" class="animeslide-desc">
+                                <h2>Innovative Design Solutions <br> for Inspiring Interior Spaces.</h2>
+                                <div class="waviy">
+                                    <span style="--i:1">A</span>
+                                    <span style="--i:2">R</span>
+                                    <span style="--i:3">C</span>
+                                    <span style="--i:4">H</span>
+                                    <span style="--i:5">I</span>
+                                    <span style="--i:6">T</span>
+                                    <span style="--i:7">E</span>
+                                    <!-- <span style="--i:8"> &nbsp; </span> -->
+                                    <span style="--i:9">C</span>
+                                    <span style="--i:10">T</span>
+                                    <span style="--i:11">U</span>
+                                    <span style="--i:12">R</span>
+                                    <span style="--i:13">A</span>
+                                    <span style="--i:14">L</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide animeslide-slide" style="background-image: url(images/shroom-2.png);">
+                        <div class="container">
+                            <h2 data-animate="bottom" class="animeslide-heading">
+                                Why do we use it <br />
+                                <span>Lorem Ipsum is simply dummy text </span>
+                            </h2>
+
+                            <div data-animate="bottom" class="animeslide-desc">
+                                <h2>Elevate Your Brand <br> with Stunning Showrooms</h2>
+                                <!-- <h2>Interior Soloution <br> Grow Your Business</h2> -->
+                                <div class="waviy">
+                                    <span style="--i:1">S</span>
+                                    <span style="--i:2">H</span>
+                                    <span style="--i:3">O</span>
+                                    <span style="--i:4">W</span>
+                                    <span style="--i:5">R</span>
+                                    <span style="--i:6">O</span>
+                                    <span style="--i:7">O</span>
+                                    <!-- <span style="--i:8"> &nbsp; </span> -->
+                                    <span style="--i:9">M</span>
+                                    <!-- <span style="--i:10">A</span>
+                                                                            <span style="--i:11">L</span> -->
+                                    <!-- <span style="--i:12">i</span>
+                                                                                                <span style="--i:13">c</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide animeslide-slide" style="background-image: url(images/commercial.png);">
+                        <div class="container">
+                            <h2 data-animate="bottom" class="animeslide-heading">
+                                Why do we use it <br />
+                                <span>Lorem Ipsum is simply dummy text </span>
+                            </h2>
+
+                            <div data-animate="bottom" class="animeslide-desc">
+                                <h2>Elevate Your Workspace <br> with Innovative Design.</h2>
+                                <!-- <h2>Interior Soloution <br> Grow Your Business</h2> -->
+                                <div class="waviy">
+                                    <span style="--i:1">C</span>
+                                    <span style="--i:2">O</span>
+                                    <span style="--i:3">M</span>
+                                    <span style="--i:4">M</span>
+                                    <span style="--i:5">e</span>
+                                    <span style="--i:6">R</span>
+                                    <span style="--i:7">C</span>
+                                    <!-- <span style="--i:8"> &nbsp; </span> -->
+                                    <span style="--i:9">I</span>
+                                    <span style="--i:10">A</span>
+                                    <span style="--i:11">L</span>
+                                    <!-- <span style="--i:12">i</span>
+                                    <span style="--i:13">c</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide animeslide-slide" style="background-image: url(images/resi.png);">
+                        <div class="container">
+                            <h2 data-animate="bottom" class="animeslide-heading">
+                                Why do we use it <br />
+                                <span>Lorem Ipsum is simply dummy text </span>
+                            </h2>
+
+                            <div data-animate="bottom" class="animeslide-desc">
+                                <h2>Transform Your Home <br> with Exceptional Design.</h2>
+                                <!-- <h2>Interior Soloution <br> Grow Your Business</h2> -->
+                                <div class="waviy">
+                                    <span style="--i:1">R</span>
+                                    <span style="--i:2">E</span>
+                                    <span style="--i:3">S</span>
+                                    <span style="--i:4">I</span>
+                                    <span style="--i:5">D</span>
+                                    <span style="--i:6">E</span>
+                                    <span style="--i:7">N</span>
+                                    <!-- <span style="--i:8"> &nbsp; </span> -->
+                                    <span style="--i:9">T</span>
+                                    <span style="--i:10">I</span>
+                                    <span style="--i:11">A</span>
+                                    <span style="--i:12">L</span>
+                                    <!-- <span style="--i:13">c</span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-slide animeslide-slide" style="background-image: url(images/banner.png);">
+                        <div class="container">
+                            <h2 data-animate="bottom" class="animeslide-heading">
+                                Why do we use it <br />
+                                <span>Lorem Ipsum is simply dummy text </span>
+                            </h2>
+
+                            <p data-animate="bottom" class="animeslide-desc">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has
+                                been
+                                the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                galley
+                                of type and scrambled it to make a type specimen book. It has survived not only five
+                            </p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="flex animeslide-bottom">
+                    <div class="cell small">
+                        <div class="animeslide-pagination swiper-pagination"></div>
+                    </div>
+                    <div class="cell medium">
+                        <div class="animeslide-scrollbar swiper-scrollbar"></div>
+                    </div>
+                    <div class="cell small">
+                        <div class="animeslide-button-prev swiper-button-prev"></div>
+                        <div class="animeslide-button-next swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!--bootstrap bundle-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+        <!-- swiper js-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+
+</html>
