@@ -19,7 +19,7 @@
 </head>
 
 <body class="main-bg">
-   
+
     <div class="page-wrapper frame-box">
         <div class="prgoress_indicator">
             <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -61,17 +61,51 @@
                                             <h2>Menu</h2>
                                             <nav>
                                                 <ul class="cd-primary-nav">
-                                                    <li><a href="index.php"
-                                                            class="selected">Home</a></li>
-                                                    <li><a href="about.php" class="selected">About Us</a></li>
-                                                    <li><a href="interior-designing.php" class="selected">Our Services</a></li>
-                                                    <li><a href="industrial-areas-of-ahmedabad.php" class="selected">Areas We Serve</a></li>
-                                                    <li><a href="blog.php" class="selected">Blogs</a></li>
-                                                    <li><a href="gallery.php" class="selected">Gallery</a></li>
-                                                    <li><a href="enquiry.php" class="selected">Enquiry</a></li>
-                                                    <li><a href="contact.php" class="selected">Contact Us</a></li>
+                                                    <li><a href="index.php" class="selected">Home</a></li>
+                                                    <li><a href="javascript:void(0)" class="selected">Company Profile
+                                                    </a></li>
+
+                                                    <!-- Dropdown for Our Services -->
+                                                    <li class="dropdown">
+                                                        <a href="javascript:void(0)" class="selected">Auto Corrugation</a>
+                                                        <span class="toggle-icon">+</span>
+                                                        <ul class="submenu">
+                                                            <li><a href="javascript:void(0)">Adhesives</a></li>
+                                                            <li><a href="javascript:void(0)">Additives</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a href="javascript:void(0)" class="selected">Semi Corrugation</a>
+                                                        <span class="toggle-icon">+</span>
+                                                        <ul class="submenu">
+                                                            <li><a href="javascript:void(0)">Adhesives</a></li>
+                                                            <li><a href="javascript:void(0)">Additives</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown">
+                                                        <a href="javascript:void(0)" class="selected">Other Products</a>
+                                                        <span class="toggle-icon">+</span>
+                                                        <ul class="submenu">
+                                                            <li><a href="javascript:void(0)">Paper Tube Gum Powder</a></li>
+                                                            <li><a href="javascript:void(0)">Paper Cone Gum Cold</a></li>
+                                                            <li><a href="javascript:void(0)">Paper Cone Gum Hot</a></li>
+                                                            <li><a href="javascript:void(0)">Corrugation Gum Powder</a></li>
+                                                            <li><a href="javascript:void(0)">Cold Pasting Gum Powder</a></li>
+                                                            <li><a href="javascript:void(0)">White Dextrin</a></li>
+                                                            <li><a href="javascript:void(0)">Yellow Dextrin</a></li>
+                                                            <li><a href="javascript:void(0)">Neutral Gum Powder</a></li>
+                                                            <li><a href="javascript:void(0)">Gypsum Board Starch</a></li>
+                                                            <li><a href="javascript:void(0)">Carboxy Methyl Starch</a></li>
+                                                            <li><a href="javascript:void(0)">Carboxy Methyl Cellulose</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="javascript:void(0)" class="selected">Other Products</a></li>
+                                                    <li><a href="javascript:void(0)" class="selected">Faq's</a></li>
+                                                    <li><a href="javascript:void(0)" class="selected">Inquiry</a></li>
+                                                    <li><a href="javascript:void(0)" class="selected">Contact Us</a></li>
                                                 </ul>
                                             </nav>
+
 
 
                                         </div><!-- .cd-half-block -->
@@ -275,6 +309,57 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+
+        <!-- <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const dropdown = document.querySelector(".dropdown-toggle");
+                const parentLi = dropdown.parentElement;
+
+                dropdown.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    parentLi.classList.toggle("open");
+                });
+            });
+        </script> -->
+
+
+        <!-- <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dropdownToggle = document.querySelector(".dropdown-toggle");
+    const parentLi = dropdownToggle.parentElement;
+    const toggleIcon = dropdownToggle.querySelector(".toggle-icon");
+
+    dropdownToggle.addEventListener("click", function (e) {
+      e.preventDefault();
+      parentLi.classList.toggle("open");
+      // Toggle icon text
+      if (parentLi.classList.contains("open")) {
+        toggleIcon.textContent = "−"; // minus sign
+      } else {
+        toggleIcon.textContent = "+"; // plus sign
+      }
+    });
+  }); 
+        </script> -->
+
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const toggleIcons = document.querySelectorAll(".toggle-icon");
+
+                toggleIcons.forEach(function(icon) {
+                    icon.addEventListener("click", function(e) {
+                        e.stopPropagation(); // prevent link triggering
+                        const dropdown = this.closest(".dropdown");
+                        dropdown.classList.toggle("open");
+
+                        // Change icon based on state
+                        this.textContent = dropdown.classList.contains("open") ? "−" : "+";
+                    });
+                });
+            });
+        </script>
 </body>
 
 </html>

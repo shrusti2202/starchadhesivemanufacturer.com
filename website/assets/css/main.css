@@ -294,6 +294,7 @@ Main Header
 .animeslide-button-next {
   display: none !important;
 }
+
 /*End of Zoom out Keyframes */
 
 .waviy {
@@ -1692,7 +1693,7 @@ Main Components
 
 .cd-nav-trigger {
   position: fixed;
-  z-index: 3;
+  z-index: 11111;
   right: 5%;
   top: 20px;
   height: 54px;
@@ -1839,7 +1840,7 @@ Main Components
     right: 0;
     top: 0;
     height: 100%;
-    width: 66.6%;
+    /* width: 66.6%; */
     background: #000000;
     z-index: 1000;
 }
@@ -1984,7 +1985,7 @@ body.navigation-is-open #cd-nav {
     font-weight: 700;
   }
   .cd-nav .cd-contact-info {
-    /* margin-top: 60px; */
+    margin-top: 60px;
     text-align: right;
   }
 }
@@ -2012,6 +2013,100 @@ body.navigation-is-open #cd-nav {
   -o-transform: translateX(0);
   transform: translateX(0);
 }
+.cd-primary-nav .dropdown .submenu {
+  display: none;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.cd-primary-nav .dropdown.open .submenu {
+  display: block;
+}
+
+.cd-primary-nav .submenu li a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.cd-primary-nav .submenu li a:hover {
+  color: #ffffff;
+}
+
+
+.dropdown-toggle {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-toggle .toggle-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Adjust icon color for hover */
+.no-touch .dropdown-toggle:hover .toggle-icon {
+  color: #ffffff;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+/* Style the + / - toggle icon */
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Dropdown submenu hidden by default */
+.submenu {
+  display: none;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+/* Show submenu when open */
+.dropdown.open .submenu {
+  display: block;
+}
+
+/* Hide submenu by default */
+.submenu {
+  display: none;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+/* Show submenu when .open class is active */
+.dropdown.open .submenu {
+  display: block;
+}
+
+/* Style for the + / - toggle icon */
+.dropdown {
+  position: relative;
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+}
+
 
 /* ..........inner-pages-start............ */
 .breadcumb-area {
@@ -3521,12 +3616,183 @@ body.navigation-is-open #cd-nav {
   }
 
 
+  .home-banner {
+    position: relative;
+  }
+  
+  .home-banner .carousel {
+    z-index: 2;
+    position: relative;
+  }
+  
+  .home-banner .container {
+    max-width: 1460px;
+    width: 100%;
+  }
+  
+  .home-banner .min-h {
+    min-height: 720px;
+  }
+  
+  .home-banner {
+    position: relative;
+  }
+  
+  .home-banner .carousel-inner {
+    z-index: 0;
+  }
+  
+  .home-banner:hover .banner-btn {
+    opacity: 1;
+  }
+  
+  .home-banner .banner-btn {
+    background: #cc6a5fd4;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-banner .banner-btn:hover {
+    opacity: 1;
+    color: #ffffff;
+    background: #cc6a5f;
+  }
+  
+  .home-banner .banner-btn.left,
+  .home-banner .banner-btn.right {
+    position: absolute;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0;
+  }
+  
+  .home-banner .banner-btn.left {
+    right: 100px;
+  }
+  
+  .home-banner .banner-btn.right {
+    right: 40px;
+  }
+  
+  .home-banner .title {
+    font-size: 50px;
+    line-height: 135%;
+    color: #ffffff;
+    font-weight: 700;
+  }
+  
+  .home-banner .contents .sm-title {
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 60px;
+    color: #fff;
+  }
+  
+  .home-banner .contents .sm-title:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 10px;
+    width: 45px;
+    height: 2px;
+    background: #cc6a5f;
+  }
+  
+  .home-banner .title span {
+    color: #cc6a5f;
+  }
+  
+  .home-banner .banner-img {
+    transform: translateX(40px);
+    opacity: 0;
+    transition: all 0.6s ease-in-out;
+  }
+  
+  .home-banner .active .banner-img {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+  .home-banner .contents {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .home-banner .active .contents {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .home-banner .thumbnail-container {
+    padding-bottom: 100vh;
+    background: #1969c0;
+  }
+  
+  .home-banner .thumbnail-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .home-banner .banner-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 2;
+  }
+  
+  .home-banner .contents {
+    max-width: 900px;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .home-banner .carousel-item.active .contents {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .home-banner .more-btn {
+    margin-top: 25px;
+  }
+  
+  .home-banner .img-fill:after {
+    background: rgba(0, 0, 0, 0.35);
+  }
 
+  .home-banner .img-fill img {
+    height: 300px;
+  }
 
+  .home-banner .banner-btn.left,
+  .home-banner .banner-btn.right {
+    bottom: 15px;
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+    opacity: 1;
+  }
 
+  .home-banner .banner-btn.right {
+    right: 15px;
+  }
 
-
-
-
-
+  .home-banner .banner-btn.left {
+    right: 50px;
+  }
   

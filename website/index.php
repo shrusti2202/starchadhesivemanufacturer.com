@@ -2,6 +2,7 @@
 include_once('menubar.php');
 ?>
 
+
 <section class="main-banner">
             <div class="swiper animeslide">
                 <!-- Additional required wrapper -->
