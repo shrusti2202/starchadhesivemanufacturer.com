@@ -60,10 +60,10 @@
                                         <div class="cd-half-block col-md-6">
                                             <nav>
                                                 <ul class="cd-primary-nav">
-                                            <h2>Menu</h2>
+                                                    <h2>Menu</h2>
                                                     <li><a href="index.php" class="selected">Home</a></li>
                                                     <li><a href="javascript:void(0)" class="selected">Company Profile
-                                                    </a></li>
+                                                        </a></li>
 
                                                     <!-- Dropdown for Our Services -->
                                                     <li class="dropdown">
@@ -108,13 +108,15 @@
                                         <div class="cd-half-block col-md-6">
                                             <address>
                                                 <ul class="cd-contact-info">
-                                                    <li><h2><strong>Address</strong></h2></li>
-                                                    <li><i class="fa fa-location-arrow" aria-hidden="true"></i>   No - 1, SY - 138, Magadi Main Rd, Near STP Plant Jana Shakti Nagar, Janashakthi Nagar, Kamath Layout, Bengaluru, Karnataka 562130</li>
+                                                    <li>
+                                                        <h2><strong>Address</strong></h2>
+                                                    </li>
+                                                    <li><i class="fa fa-location-arrow" aria-hidden="true"></i> No - 1, SY - 138, Magadi Main Rd, Near STP Plant Jana Shakti Nagar, Janashakthi Nagar, Kamath Layout, Bengaluru, Karnataka 562130</li>
                                                     <li style="margin-top: 15px;"><a
                                                             href="mailto: info.biochemnxt@gmail.com">
-                                                            <i class="fa fa-envelope" aria-hidden="true"></i> 
-                                                              biochemnxt@gmail.com</a></li>
-                                                    <li><i class="fa fa-phone" aria-hidden="true"></i>   +91 86182 57515</li>
+                                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                                            biochemnxt@gmail.com</a></li>
+                                                    <li><i class="fa fa-phone" aria-hidden="true"></i> +91 86182 57515</li>
                                                     <li>
                                                         <div class="google-map" style="margin-top: 15px;">
                                                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.18419806302!2d77.4574552!3d12.9848927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3b564be01973%3A0xb8d6f6542b92c7b!2sBIO%20CHEM%20NXT%20-%20Leading%20Manufacturer%20of%20Dextrin%20Powder%20%7C%20Pasting%20Gum%20Powder%20%7C%20Corrugation%20Gum%20Powder!5e0!3m2!1sen!2sin!4v1717563253756!5m2!1sen!2sin" width="100%" height="350" style="border:0; border-radius: 15px; box-shadow: 0px 0px 10px 5px #00000046;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
