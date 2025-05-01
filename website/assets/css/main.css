@@ -1982,7 +1982,7 @@ body.navigation-is-open #cd-nav {
   }
   .cd-nav .cd-primary-nav a {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: normal;
   }
   .cd-nav .cd-contact-info {
     margin-top: 60px;
